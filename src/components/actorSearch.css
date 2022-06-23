@@ -1,0 +1,44 @@
+#page{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#results{
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.actorBox{
+    background-color: white;
+    border: black ridge 5px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 100px;
+    width: 85%;
+    height: 100px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.box:hover{
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+}
+
+#lenRatingCategory{
+    font-size: 11px;
+}
+
+#actorHeading{
+    float: center;
+}
+
+#addActorForm{
+    display: block;
+    margin-top: 100px;
+}

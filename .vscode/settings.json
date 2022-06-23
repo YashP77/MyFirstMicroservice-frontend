@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/88bc5ba7-d1eb-4736-aa7d-bb6e8c660c03/resourceGroups/appsvc_linux_centralus_premium/providers/Microsoft.Web/sites/MicroserviceFrontEndYash",
+    "appService.deploySubpath": "."
+}
